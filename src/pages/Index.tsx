@@ -58,12 +58,12 @@ const Index = () => (
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link to="/contact">
-              <Button size="lg" className="bg-accent text-accent-foreground hover:bg-flame-dark text-base px-8 w-full sm:w-auto">
+              <Button size="lg" className="bg-accent text-white hover:bg-flame-dark text-base px-8 w-full sm:w-auto">
                 Get a Free Quote
               </Button>
             </Link>
             <a href="tel:+16138628242">
-              <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 gap-2 text-base w-full sm:w-auto">
+              <Button size="lg" variant="outline" className="border-white/40 bg-white/10 text-white hover:bg-white/20 gap-2 text-base w-full sm:w-auto">
                 <Phone className="w-5 h-5" /> Call Now
               </Button>
             </a>

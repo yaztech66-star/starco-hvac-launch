@@ -56,11 +56,11 @@ const LocationPage = () => {
           <p className="text-primary-foreground/70 text-lg">{location.desc}</p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
             <Link to="/contact">
-              <Button size="lg" className="bg-accent text-accent-foreground hover:bg-flame-dark w-full sm:w-auto">Get a Free Quote</Button>
+              <Button size="lg" className="bg-accent text-white hover:bg-flame-dark w-full sm:w-auto">Get a Free Quote</Button>
             </Link>
-            <a href="tel:+16135550123">
-              <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 gap-2 w-full sm:w-auto">
-                <Phone className="w-4 h-4" /> (613) 555-0123
+            <a href="tel:+16138628242">
+              <Button size="lg" variant="outline" className="border-white/40 bg-white/10 text-white hover:bg-white/20 gap-2 w-full sm:w-auto">
+                <Phone className="w-4 h-4" /> (613) 862-8242
               </Button>
             </a>
           </div>

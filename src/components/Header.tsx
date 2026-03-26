@@ -58,7 +58,7 @@ const Header = () => {
               </Button>
             </a>
             <Link to="/contact">
-              <Button size="sm" className="bg-accent text-accent-foreground hover:bg-flame-dark">
+              <Button size="sm" className="bg-accent text-white hover:bg-flame-dark">
                 Get a Quote
               </Button>
             </Link>
@@ -92,7 +92,7 @@ const Header = () => {
                 </Button>
               </a>
               <Link to="/contact" onClick={() => setOpen(false)}>
-                <Button className="w-full bg-accent text-accent-foreground hover:bg-flame-dark">
+                <Button className="w-full bg-accent text-white hover:bg-flame-dark">
                   Get a Quote
                 </Button>
               </Link>
