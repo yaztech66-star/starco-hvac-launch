@@ -26,7 +26,7 @@ const ContactPage = () => {
     <Layout>
       <SEO
         title="Contact Us - Get a Free HVAC Quote"
-        description="Contact Starco HVAC for a free quote on gas heating, furnace repair, air conditioning, and refrigeration services. Call (613) 555-0123 or fill out our online form."
+        description="Contact Starco HVAC for a free quote on gas heating, furnace repair, air conditioning, and refrigeration services. Call (613) 862-8242 or fill out our online form."
       />
 
       <section className="bg-primary text-primary-foreground section-padding">
@@ -80,7 +80,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-sm">Phone</p>
-                    <a href="tel:+16135550123" className="text-muted-foreground hover:text-accent transition-colors">(613) 555-0123</a>
+                    <a href="tel:+16138628242" className="text-muted-foreground hover:text-accent transition-colors">(613) 862-8242</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -89,7 +89,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-sm">Email</p>
-                    <a href="mailto:info@starcotech.ca" className="text-muted-foreground hover:text-accent transition-colors">info@starcotech.ca</a>
+                    <a href="mailto:starcohvacinc@gmail.com" className="text-muted-foreground hover:text-accent transition-colors">starcohvacinc@gmail.com</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -98,7 +98,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-sm">Address</p>
-                    <p className="text-muted-foreground">123 Industrial Drive<br />Ottawa, ON K1A 0A1</p>
+                    <p className="text-muted-foreground">2487 Kaladar Ave, Bay 4<br />Ottawa, ON K1V 8B9</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -116,7 +116,7 @@ const ContactPage = () => {
               <div className="mt-8 rounded-lg overflow-hidden border">
                 <iframe
                   title="Starco HVAC Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.0!2d-75.69!3d45.42!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDI1JzEyLjAiTiA3NcKwNDEnMjQuMCJX!5e0!3m2!1sen!2sca!4v1"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.5!2d-75.6456!3d45.3742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0f1d1f1b1b1b%3A0x0!2s2487+Kaladar+Ave%2C+Ottawa%2C+ON+K1V+8B9!5e0!3m2!1sen!2sca!4v1"
                   width="100%"
                   height="250"
                   style={{ border: 0 }}

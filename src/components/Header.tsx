@@ -7,8 +7,6 @@ import logo from "@/assets/starco-logo.png";
 const navLinks = [
   { label: "Home", path: "/" },
   { label: "Services", path: "/services" },
-  { label: "Products", path: "/products" },
-  { label: "Projects", path: "/projects" },
   { label: "Blog", path: "/blog" },
   { label: "About", path: "/about" },
   { label: "Contact", path: "/contact" },
@@ -24,8 +22,8 @@ const Header = () => {
       <div className="bg-primary text-primary-foreground text-sm py-2 px-4 hidden md:block">
         <div className="container flex justify-between items-center">
           <span>24/7 Emergency HVAC Service Available</span>
-          <a href="tel:+16135550123" className="flex items-center gap-1.5 hover:text-accent transition-colors">
-            <Phone className="w-3.5 h-3.5" /> (613) 555-0123
+          <a href="tel:+16138628242" className="flex items-center gap-1.5 hover:text-accent transition-colors">
+            <Phone className="w-3.5 h-3.5" /> (613) 862-8242
           </a>
         </div>
       </div>
@@ -54,7 +52,7 @@ const Header = () => {
           </nav>
 
           <div className="hidden lg:flex items-center gap-3">
-            <a href="tel:+16135550123">
+            <a href="tel:+16138628242">
               <Button variant="outline" size="sm" className="gap-1.5">
                 <Phone className="w-4 h-4" /> Call Now
               </Button>
@@ -88,7 +86,7 @@ const Header = () => {
               </Link>
             ))}
             <div className="px-6 pt-2 flex flex-col gap-2">
-              <a href="tel:+16135550123">
+              <a href="tel:+16138628242">
                 <Button variant="outline" className="w-full gap-1.5">
                   <Phone className="w-4 h-4" /> Call Now
                 </Button>
@@ -105,7 +103,7 @@ const Header = () => {
 
       {/* Mobile sticky call button */}
       <a
-        href="tel:+16135550123"
+        href="tel:+16138628242"
         className="fixed bottom-4 right-4 z-50 lg:hidden bg-accent text-accent-foreground p-4 rounded-full shadow-lg hover:bg-flame-dark transition-colors"
         aria-label="Call Starco HVAC"
       >
