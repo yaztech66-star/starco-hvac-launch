@@ -64,7 +64,7 @@ const ContactPage = () => {
                   </Select>
                 </div>
                 <Textarea placeholder="Tell us about your project or issue..." rows={5} name="message" />
-                <Button type="submit" size="lg" disabled={loading} className="bg-accent text-accent-foreground hover:bg-flame-dark gap-2">
+                <Button type="submit" size="lg" disabled={loading} className="bg-accent text-white hover:bg-flame-dark gap-2">
                   <Send className="w-4 h-4" /> {loading ? "Sending..." : "Send Quote Request"}
                 </Button>
               </form>
