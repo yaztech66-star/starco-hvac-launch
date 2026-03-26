@@ -29,8 +29,8 @@ const Index = () => (
         "@context": "https://schema.org",
         "@type": "Organization",
         name: "Starco HVAC Inc.",
-        url: "https://www.starcotech.ca",
-        logo: "https://www.starcotech.ca/starco-logo.png",
+        url: "https://www.starcohvac.ca",
+        logo: "https://www.starcohvac.ca/starco-logo.png",
       }}
     />
 
@@ -62,7 +62,7 @@ const Index = () => (
                 Get a Free Quote
               </Button>
             </Link>
-            <a href="tel:+16135550123">
+            <a href="tel:+16138628242">
               <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 gap-2 text-base w-full sm:w-auto">
                 <Phone className="w-5 h-5" /> Call Now
               </Button>

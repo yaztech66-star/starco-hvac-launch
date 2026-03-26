@@ -21,9 +21,9 @@ const CTASection = ({
             Request a Quote
           </Button>
         </Link>
-        <a href="tel:+16135550123">
+        <a href="tel:+16138628242">
           <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 gap-2 w-full sm:w-auto">
-            <Phone className="w-4 h-4" /> (613) 555-0123
+            <Phone className="w-4 h-4" /> (613) 862-8242
           </Button>
         </a>
       </div>

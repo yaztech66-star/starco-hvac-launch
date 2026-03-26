@@ -27,7 +27,9 @@ const Footer = () => (
     <div className="container py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
       {/* Brand */}
       <div>
-        <img src={logo} alt="Starco HVAC" className="h-12 mb-4 brightness-0 invert" />
+        <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 inline-block mb-4">
+          <img src={logo} alt="Starco HVAC" className="h-12 w-auto" />
+        </div>
         <p className="text-sm text-primary-foreground/70 leading-relaxed">
           Expert gas heating, cooling, and refrigeration services for residential and commercial clients across Ontario and Quebec.
         </p>
@@ -63,15 +65,15 @@ const Footer = () => (
         <ul className="space-y-3 text-sm text-primary-foreground/70">
           <li className="flex items-start gap-2">
             <Phone className="w-4 h-4 mt-0.5 text-accent" />
-            <a href="tel:+16135550123" className="hover:text-accent transition-colors">(613) 555-0123</a>
+            <a href="tel:+16138628242" className="hover:text-accent transition-colors">(613) 862-8242</a>
           </li>
           <li className="flex items-start gap-2">
             <Mail className="w-4 h-4 mt-0.5 text-accent" />
-            <a href="mailto:info@starcotech.ca" className="hover:text-accent transition-colors">info@starcotech.ca</a>
+            <a href="mailto:starcohvacinc@gmail.com" className="hover:text-accent transition-colors">starcohvacinc@gmail.com</a>
           </li>
           <li className="flex items-start gap-2">
             <MapPin className="w-4 h-4 mt-0.5 text-accent" />
-            <span>123 Industrial Drive, Ottawa, ON K1A 0A1</span>
+            <span>2487 Kaladar Ave, Bay 4<br />Ottawa, ON K1V 8B9</span>
           </li>
           <li className="flex items-start gap-2">
             <Clock className="w-4 h-4 mt-0.5 text-accent" />

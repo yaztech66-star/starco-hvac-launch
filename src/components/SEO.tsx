@@ -9,7 +9,7 @@ interface SEOProps {
 }
 
 const SITE_NAME = "Starco HVAC Inc.";
-const BASE_URL = "https://www.starcotech.ca";
+const BASE_URL = "https://www.starcohvac.ca";
 
 const SEO = ({ title, description, canonical, noindex = false, jsonLd }: SEOProps) => {
   useEffect(() => {
@@ -54,14 +54,14 @@ const SEO = ({ title, description, canonical, noindex = false, jsonLd }: SEOProp
       "@type": "LocalBusiness",
       name: "Starco HVAC Inc.",
       url: BASE_URL,
-      telephone: "+1-613-555-0123",
-      email: "info@starcotech.ca",
+      telephone: "+1-613-862-8242",
+      email: "starcohvacinc@gmail.com",
       address: {
         "@type": "PostalAddress",
-        streetAddress: "123 Industrial Drive",
+        streetAddress: "2487 Kaladar Ave, Bay 4",
         addressLocality: "Ottawa",
         addressRegion: "ON",
-        postalCode: "K1A 0A1",
+        postalCode: "K1V 8B9",
         addressCountry: "CA",
       },
       openingHours: ["Mo-Fr 07:00-18:00", "Sa 08:00-14:00"],
