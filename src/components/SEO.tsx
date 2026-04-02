@@ -32,6 +32,7 @@ const SEO = ({ title, description, canonical, noindex = false, jsonLd }: SEOProp
     setMeta("og:title", `${title} | ${SITE_NAME}`, "property");
     setMeta("og:description", description, "property");
     setMeta("og:type", "website", "property");
+    setMeta("og:url", canonical || `${BASE_URL}${window.location.pathname}`, "property");
 
     // Canonical
     let link = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
