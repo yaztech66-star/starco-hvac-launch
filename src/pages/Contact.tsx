@@ -26,7 +26,7 @@ const ContactPage = () => {
     <Layout>
       <SEO
         title="Contact Us - Get a Free HVAC Quote"
-        description="Contact Starco HVAC for a free quote on gas heating, furnace repair, air conditioning, and refrigeration services. Call (613) 862-8242 or fill out our online form."
+        description="Contact Starco HVAC for a free quote on gas heating, furnace repair, air conditioning, and refrigeration services. Call (613) 799-3939 or fill out our online form."
       />
 
       <section className="bg-primary text-primary-foreground section-padding">

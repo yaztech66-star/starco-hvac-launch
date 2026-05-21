@@ -103,7 +103,7 @@ const Header = () => {
 
       {/* Mobile sticky call button */}
       <a
-        href="tel:+16138628242"
+        href="tel:+16137993939"
         className="fixed bottom-4 right-4 z-50 lg:hidden bg-accent text-accent-foreground p-4 rounded-full shadow-lg hover:bg-flame-dark transition-colors"
         aria-label="Call Starco HVAC"
       >
