@@ -55,7 +55,7 @@ const SEO = ({ title, description, canonical, noindex = false, jsonLd }: SEOProp
       "@type": "LocalBusiness",
       name: "Starco HVAC Inc.",
       url: BASE_URL,
-      telephone: "+1-613-862-8242",
+      telephone: "+1-613-799-3939",
       email: "starcohvacinc@gmail.com",
       address: {
         "@type": "PostalAddress",

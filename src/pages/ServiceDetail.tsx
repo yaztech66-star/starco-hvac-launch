@@ -139,9 +139,9 @@ const ServiceDetailPage = () => {
             <Link to="/contact">
               <Button size="lg" className="bg-accent text-white hover:bg-flame-dark w-full sm:w-auto">Request a Quote</Button>
             </Link>
-            <a href="tel:+16138628242">
+            <a href="tel:+16137993939">
               <Button size="lg" variant="outline" className="border-white/40 bg-white/10 text-white hover:bg-white/20 gap-2 w-full sm:w-auto">
-                <Phone className="w-4 h-4" /> (613) 862-8242
+                <Phone className="w-4 h-4" /> (613) 799-3939
               </Button>
             </a>
           </div>

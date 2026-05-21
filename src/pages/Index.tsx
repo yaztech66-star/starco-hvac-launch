@@ -62,7 +62,7 @@ const Index = () => (
                 Get a Free Quote
               </Button>
             </Link>
-            <a href="tel:+16138628242">
+            <a href="tel:+16137993939">
               <Button size="lg" variant="outline" className="border-white/40 bg-white/10 text-white hover:bg-white/20 gap-2 text-base w-full sm:w-auto">
                 <Phone className="w-5 h-5" /> Call Now
               </Button>

@@ -26,7 +26,7 @@ const ContactPage = () => {
     <Layout>
       <SEO
         title="Contact Us - Get a Free HVAC Quote"
-        description="Contact Starco HVAC for a free quote on gas heating, furnace repair, air conditioning, and refrigeration services. Call (613) 862-8242 or fill out our online form."
+        description="Contact Starco HVAC for a free quote on gas heating, furnace repair, air conditioning, and refrigeration services. Call (613) 799-3939 or fill out our online form."
       />
 
       <section className="bg-primary text-primary-foreground section-padding">
@@ -80,7 +80,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-sm">Phone</p>
-                    <a href="tel:+16138628242" className="text-muted-foreground hover:text-accent transition-colors">(613) 862-8242</a>
+                    <a href="tel:+16137993939" className="text-muted-foreground hover:text-accent transition-colors">(613) 799-3939</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
